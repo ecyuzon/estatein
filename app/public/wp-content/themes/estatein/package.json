@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.0",
+    "tailwindcss": "^4.3.0"
+  },
+  "name": "estatein",
+  "version": "1.0.0",
+  "description": "A modern real estate WordPress theme with a dark design aesthetic, perfect for property listings and real estate agencies.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i ./assets/css/input.css -o ./assets/css/tailwind.css",
+    "watch": "npx @tailwindcss/cli -i ./assets/css/input.css -o ./assets/css/tailwind.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
